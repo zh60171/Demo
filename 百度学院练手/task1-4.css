@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+.box{
+	width:400px;
+	height:200px;
+	background-color:#ccc;
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin-left:-200px;
+	margin-top:-100px;
+	overflow:hidden;
+	}
+.round_left{
+	border-radius:50px 50px 50px 50px;
+	background-color:#fc0;
+	width:100px;
+	height:100px;
+	position:absolute;
+	top:-50px;
+	left:-50px;
+	}
+.round_right{
+	border-radius:50px 50px 50px 50px;
+	background-color:#fc0;
+	width:100px;
+	height:100px;
+	position:absolute;
+	bottom:-50px;
+	right:-50px;
+	}

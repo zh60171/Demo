@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+.box{
+	background-color:#eee;
+	border:1px solid #999;
+	padding:20px;
+	}
+.left{
+	width:198px;
+	background-color:#FFF;
+	border:1px solid #999;
+	float:left;
+	margin-left:-100%;
+	}
+.box1-text{
+	float:right;
+	margin-top:10px;
+	margin-right:10px;
+	}
+.left img{
+	margin:10px;
+	border:1px solid #999;
+	}
+.right{
+	width:118px;
+	background-color:#FFF;
+	border:1px solid #999;
+	float:left;
+	margin-left:-123px;
+	}
+.right_img{
+	text-align:center;
+	padding:20px;
+	}
+.right_img img{
+	border:1px solid #999;
+	}
+.center{
+	width:100%;
+	float:left;
+	}
+.center-inner{
+	margin-left:218px;
+	margin-right:140px;
+	background-color:#FFF;
+	border:1px solid #999;
+	padding:20px;
+	}
+.clearfix:after {content:"."; display:block; height:0; visibility:hidden; clear:both; } 
